@@ -1,8 +1,7 @@
 # Enqueue trades from thetagang.com for processing.
-import requests
 
 
-def run() -> str:
+def run() -> list[str]:
     """Main function for enqueueing trades."""
     # resp = requests.get("https://api3.thetagang.com/trades", timeout=10)
 
